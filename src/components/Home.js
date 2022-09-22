@@ -6,7 +6,7 @@ import { screen } from '@testing-library/react';
 function Home() {
     return (
         <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
-            <Box sx={{ height: { sx: "auto", md: "92vh" }, px: { sx: 0, md: 2 } }}>
+            <Box>
                 <Navbar />
             </Box>
 
