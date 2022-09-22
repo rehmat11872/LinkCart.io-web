@@ -4,6 +4,9 @@ import eye from '../eye.svg'
 import home from '../home.svg'
 import customise from '../customise.svg'
 import orders from '../orders.svg'
+import payouts from '../Assets/payouts.svg'
+import products from '../Assets/products.svg'
+import Settings  from '../Assets/settings.svg'
 
 
 function Navbar() {
@@ -40,15 +43,15 @@ function Navbar() {
                 <button value="Products" icon="[object Object]" class="
                         false
                         hover:bg-light-grey  w-11/12 sm:w-full py-3 px-4 text-left  font-medium text-base rounded-xl
-                        flex justify-start gap-3 "><img src={orders} alt="products" class=" w-6 h-6" />Products</button>
+                        flex justify-start gap-3 "><img src={products} alt="products" class=" w-6 h-6" />Products</button>
                 <button value="Payments" icon="[object Object]" class="
                         false
                         hover:bg-light-grey  w-11/12 sm:w-full py-3 px-4 text-left  font-medium text-base rounded-xl
-                        flex justify-start gap-3 "><img src={orders} alt="payments" class=" w-6 h-6" />Payments</button>
+                        flex justify-start gap-3 "><img src={[payouts]} alt="payments" class=" w-6 h-6" />Payments</button>
                 <button value="Settings" icon="[object Object]" class="
                         false
                         hover:bg-light-grey  w-11/12 sm:w-full py-3 px-4 text-left  font-medium text-base rounded-xl
-                        flex justify-start gap-3 "><img src={orders} alt="settings" class=" w-6 h-6" />Settings</button>
+                        flex justify-start gap-3 "><img src={Settings} alt="settings" class=" w-6 h-6" />Settings</button>
             </div>
             <div class="mt-auto mb-4 block action-bar-container">
                 <div class="w-full h-[1px] bg-gray-200 mb-4 mx-auto">
