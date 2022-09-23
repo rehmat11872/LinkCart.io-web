@@ -9,6 +9,7 @@ import products from '../Assets/products.svg'
 import Settings  from '../Assets/settings.svg'
 
 
+
 function Navbar() {
     return (
         <div class="fixed lg:sticky top-0 w-8/12 lg:w-[320px] lg:col-start-1 lg:col-end-2 h-screen border-l-[#EFECF5] border-[1px] bg-white flex flex-col transition-all duration-100 animate z-[102] lg:z-[49] ">
@@ -31,19 +32,19 @@ function Navbar() {
                 <button value="Home" icon="[object Object]" class="
                         bg-light-grey text-lc-brand
                         hover:bg-light-grey  w-11/12 sm:w-full py-3 px-4 text-left  font-medium text-base rounded-xl
-                        flex justify-start gap-3 "><img src={home} alt="home page" class=" w-6 h-6" />Home</button>
+                        flex justify-start gap-3 "><img src={home} alt="home page" class=" w-6 h-6" /><a href='/'>Home</a></button>
                 <button value="My page" icon="[object Object]" class="
                         false
                         hover:bg-light-grey  w-11/12 sm:w-full py-3 px-4 text-left  font-medium text-base rounded-xl
-                        flex justify-start gap-3 "><img src={customise} alt="layout" class=" w-6 h-6" />My page</button>
+                        flex justify-start gap-3 "><img src={customise} alt="layout" class=" w-6 h-6" /> <a href='/mypage'>My page</a> </button>
                 <button value="Orders" icon="[object Object]" indicator="0" class="
                         false
                         hover:bg-light-grey  w-11/12 sm:w-full py-3 px-4 text-left  font-medium text-base rounded-xl
-                        flex justify-start gap-3 "><img src={orders} alt="orders" class=" w-6 h-6" />Orders</button>
+                        flex justify-start gap-3 "><img src={orders} alt="orders" class=" w-6 h-6" /><a href='/orders'>Orders</a></button>
                 <button value="Products" icon="[object Object]" class="
                         false
                         hover:bg-light-grey  w-11/12 sm:w-full py-3 px-4 text-left  font-medium text-base rounded-xl
-                        flex justify-start gap-3 "><img src={products} alt="products" class=" w-6 h-6" />Products</button>
+                        flex justify-start gap-3 "><img src={products} alt="products" class=" w-6 h-6" /><a href='/products'>Products</a></button>
                 <button value="Payments" icon="[object Object]" class="
                         false
                         hover:bg-light-grey  w-11/12 sm:w-full py-3 px-4 text-left  font-medium text-base rounded-xl
@@ -51,7 +52,7 @@ function Navbar() {
                 <button value="Settings" icon="[object Object]" class="
                         false
                         hover:bg-light-grey  w-11/12 sm:w-full py-3 px-4 text-left  font-medium text-base rounded-xl
-                        flex justify-start gap-3 "><img src={Settings} alt="settings" class=" w-6 h-6" />Settings</button>
+                        flex justify-start gap-3 "><img src={Settings} alt="settings" class=" w-6 h-6" /><a href='/settings'>Settings</a></button>
             </div>
             <div class="mt-auto mb-4 block action-bar-container">
                 <div class="w-full h-[1px] bg-gray-200 mb-4 mx-auto">
